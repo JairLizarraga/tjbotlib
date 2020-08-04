@@ -1,5 +1,5 @@
 {
-  "name": "@jairlizarraga/tjbotlib",
+  "name": "tjbotlib-jl",
   "version": "1.5.4",
   "description": "Node.js library for writing TJBot recipes. Special package for updated packages.",
   "main": "index.js",
