@@ -1,11 +1,8 @@
 {
-  "name": "tjbot",
-  "description": "Node.js library for writing TJBot recipes",
+  "name": "@jairlizarraga/tjbotlib",
   "version": "1.5.3",
-  "author": "TJBot <tjbot@us.ibm.com>",
-  "bugs": {
-    "url": "https://github.com/ibmtjbot/tjbotlib/issues"
-  },
+  "description": "Node.js library for writing TJBot recipes. Special package for updated packages.",
+  "main": "index.js",
   "dependencies": {
     "assert": "^1.4.1",
     "bluebird": "^3.5.2",
@@ -21,22 +18,28 @@
     "watson-developer-cloud": "^3.10",
     "winston": "^2.3.1",
 
-    "rpi-ws281x-native": "^0.10.x",
     "pigpio": "^1.2.x",
+    "rpi-ws281x-native": "^0.10.x"
   },
   "engines": {
     "node": ">=4.2.4"
   },
-  "homepage": "https://github.com/ibmtjbot/tjbotlib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairLizarraga/tjbotlib.git"
+  },
   "keywords": [
     "tjbot"
   ],
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ibmtjbot/tjbotlib.git"
+  "author": "Jair Lizarraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairLizarraga/tjbotlib/issues"
   },
+  "homepage": "https://github.com/JairLizarraga/tjbotlib#readme",
   "scripts": {
     "test": "mocha --reporter spec"
   },
